@@ -25,7 +25,7 @@ var heroFirstName = "Quest",
 var choreName = chores. <--make loop //accessor
 chores.deliverTo("pizza"); //mutator
 var getPaid = chores.getMoney(howMuch); //function method
-pirate.repairDamage(damage, ship);  // object argument //fix this later lol
+
 
 */
 
@@ -46,21 +46,5 @@ var grabData = function (fisherman){
 
 grabData(fisherman);
 
-// use this for reference
-
-var cube = {
-	"name": "Rubik",
-	"length": 5,
-	"width":  5,
-	"height": 5,
-	"isSquare": true,
-	"area": function(){
-		var totalArea = this.height * this.width * this.length; // don't use this in your own code ..use the getter, though
-		return totalArea;
-	}
-};
-
-console.log("The length of the cube is " + cube.length);
-console.log(cube.area());
 
 
